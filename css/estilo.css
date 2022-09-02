@@ -1,0 +1,94 @@
+body {
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+}
+.container {
+  background-color: white;
+  width: 450px;
+  height: 700px;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.text {
+  margin: 40px 50px;
+}
+h2 {
+  font-size: 1.7em;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  text-align: center;
+}
+.order {
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.plan {
+  display: inline-block;
+}
+.imag {
+  width: 20%;
+  margin: 10px;
+  text-align: center;
+}
+.ann {
+  width: 45%;
+  line-height: 5px;
+}
+.an {
+  color: hsl(223, 47%, 23%);
+}
+.sub {
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  font-size: 0.9em;
+  text-align: right;
+  width: 20%;
+  margin: 10px;
+}
+.bold,
+.sub,
+.an {
+  font-weight: 700;
+}
+.container img {
+  border-radius: 20px 20px 0px 0px;
+}
+.regiao {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 15px 2px;
+}
+.btn {
+  border-radius: 10px;
+  color: aliceblue;
+  background-color: hsl(245, 75%, 52%);
+  border-color: hsl(245deg 57% 43%);
+  border: 1px;
+  font-size: 0.9em;
+  text-align: center;
+  box-shadow: 1px 20px 20px 1px rgba(0, 0, 255, 0.2);
+}
+.btn h4 {
+  padding: 17px;
+}
+.bold {
+  font-size: 0.9em;
+  text-align: center;
+  margin-top: 35px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
