@@ -8,7 +8,7 @@ body {
 }
 .container {
   background-color: white;
-  width: 450px;
+  max-width: 450px;
   height: 690px;
   border-radius: 20px;
   margin: auto;
@@ -58,6 +58,7 @@ h2 {
 }
 .container img {
   border-radius: 20px 20px 0px 0px;
+  width: 100%;
 }
 .regiao {
   background-color: hsl(225, 100%, 98%);
@@ -92,4 +93,12 @@ h2 {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+@media (max-width: 720px) {
+  .text {
+    margin: 40px 30px;
+  }
+  .container {
+    height: 630px;
+  }
 }
