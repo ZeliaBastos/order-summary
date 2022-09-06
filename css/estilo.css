@@ -9,7 +9,7 @@ body {
 .container {
   background-color: white;
   width: 450px;
-  height: 700px;
+  height: 690px;
   border-radius: 20px;
   margin: auto;
   margin-top: 100px;
@@ -19,10 +19,11 @@ body {
   margin: 40px 50px;
 }
 h2 {
-  font-size: 1.7em;
+  font-size: 1.8em;
   font-weight: 900;
   color: hsl(223, 47%, 23%);
   text-align: center;
+  margin: auto;
 }
 .order {
   line-height: 1.5em;
@@ -36,26 +37,24 @@ h2 {
   width: 20%;
   margin: 10px;
   text-align: center;
+  float: left;
 }
 .ann {
   width: 45%;
   line-height: 5px;
 }
-.an {
+.an,
+.sub {
   color: hsl(223, 47%, 23%);
+  font-weight: 900;
 }
 .sub {
   text-decoration: underline;
   color: hsl(245, 75%, 52%);
   font-size: 0.9em;
-  text-align: right;
   width: 20%;
   margin: 10px;
-}
-.bold,
-.sub,
-.an {
-  font-weight: 700;
+  float: right;
 }
 .container img {
   border-radius: 20px 20px 0px 0px;
@@ -73,6 +72,7 @@ h2 {
   background-color: hsl(245, 75%, 52%);
   border-color: hsl(245deg 57% 43%);
   border: 1px;
+  margin-top: 30px;
   font-size: 0.9em;
   text-align: center;
   box-shadow: 1px 20px 20px 1px rgba(0, 0, 255, 0.2);
@@ -84,6 +84,7 @@ h2 {
   font-size: 0.9em;
   text-align: center;
   margin-top: 35px;
+  font-weight: 900;
 }
 .attribution {
   font-size: 11px;
